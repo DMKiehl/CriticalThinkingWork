@@ -14,8 +14,12 @@ namespace CriticalThinking
             loops.ForLoop();
             loops.UserForLoop();
 
-            FunWithWhileLoops whileloops = new FunWithWhileLoops();
-            whileloops.WhileLoop();
+            //FunWithWhileLoops whileloops = new FunWithWhileLoops();
+            //whileloops.WhileLoop();
+
+            CalculatorMadness calculator = new CalculatorMadness();
+            calculator.AddTwoNumbers();
+
         }
     }
 }

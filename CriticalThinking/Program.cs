@@ -25,6 +25,8 @@ namespace CriticalThinking
             int result = calculator.AddTwoNumbers(8, 40) + calculator.AddTwoNumbers(200, 50);
             Console.WriteLine(result);
             Console.ReadLine();
+
+            calculator.RunCalculations();
             
 
         }

@@ -28,26 +28,31 @@ namespace CriticalThinking
 
         public void RunCalculations()
         {
-            int result = AddTwoNumbers(8, 40) + AddTwoNumbers(200, 50);
-            //int newResult = AddTwoNumbers(200, 50);
-            Console.WriteLine(result);
+            int result = MultiplyTwoNumbers(40, 35);
+            int newResult = DivideTwoNumbers(result, 4);
+            int myResult = AddTwoNumbers(6, 5);
+            int thisResult = SubtractTwoNumbers(myResult, newResult);
+            int finalResult = thisResult + MultiplyTwoNumbers(2, 2);
+            Console.WriteLine(finalResult);
+            Console.ReadLine();
+            
         }
 
         public int SubtractTwoNumbers(int numberOne, int numberTwo)
         {
-            int result;
+            int result = numberOne - numberTwo;
             return result;
         }
 
         public int MultiplyTwoNumbers(int numberOne, int numberTwo)
         {
-            int result;
+            int result = numberOne * numberTwo;
             return result;
         }
 
         public int DivideTwoNumbers(int numberOne, int numberTwo)
         {
-            int result;
+            int result = numberOne / numberTwo;
             return result;
         }
             

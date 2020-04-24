@@ -12,6 +12,7 @@ namespace CriticalThinking
         {
             FunWithForLoops loops = new FunWithForLoops();
             loops.ForLoop();
+            loops.UserForLoop();
         }
     }
 }

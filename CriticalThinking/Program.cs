@@ -27,8 +27,9 @@ namespace CriticalThinking
             //Console.ReadLine();
 
             //calculator.RunCalculations();
-            
 
+            Computer computer = new Computer();
+            computer.BuildComputer();
         }
     }
 }

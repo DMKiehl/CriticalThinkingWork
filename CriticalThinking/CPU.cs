@@ -9,8 +9,8 @@ namespace CriticalThinking
     class CPU
     {
         //member variables
-        string Manufacturer;
-        string Name;
+        public string Manufacturer;
+        public string Name;
 
         //constructor
         public CPU(string manufacturer, string name)
@@ -20,6 +20,13 @@ namespace CriticalThinking
         }
 
         //member methods
+        public void CheckRequirements(Applications app, HardDrive hardDrive, RAM ram, GPU gpu)
+        {
+            if (ram.TotalGigabytes > app.RequiredRAM && hardDrive.AvailableStorage > app.RequiredStorage)
+            {
+                hardDrive.ProcessInstall(app, hardDrive, ram);
+            }
+        }
 
     }
 }

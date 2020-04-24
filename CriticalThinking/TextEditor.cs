@@ -6,20 +6,12 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class RAM
+    class TextEditor : Applications
     {
         //member variables
-        public double TotalGigabytes;
-        public string Brand;
 
         //constructor
-        public RAM(double totalGigabytes, string brand)
-        {
-            TotalGigabytes = totalGigabytes;
-            Brand = brand;
-        }
 
         //member methods
-
     }
 }

@@ -26,7 +26,6 @@ namespace CriticalThinking
         }
 
         //member methods
-
-
+      
     }
 }

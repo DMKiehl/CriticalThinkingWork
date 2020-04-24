@@ -9,17 +9,23 @@ namespace CriticalThinking
     class HardDrive
     {
         //member variables
-        double TotalStorage;
-        double AvailableStorage;
+        public double TotalStorage;
+        public double AvailableStorage;
+        public List<Applications> ApplicationsInHardDrive;
 
         //constructor
         public HardDrive(double totalStorage, double availableStorage)
         {
             TotalStorage = totalStorage;
             AvailableStorage = availableStorage;
+            ApplicationsInHardDrive = new List<Applications>();
         }
 
         //member methods
+        public void ProcessInstall(Applications app, HardDrive hardDrive, RAM ram)
+        {
+            hardDrive.ApplicationsInHardDrive.Add(app);
+        }
 
 
     }

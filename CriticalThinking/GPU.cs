@@ -9,8 +9,8 @@ namespace CriticalThinking
     class GPU
     {
         //member variables
-        string Manufacturer;
-        double EffectiveMemory;
+        public string Manufacturer;
+        public double EffectiveMemory;
 
         //constructor
         public GPU(string manufacturer, double effectiveMemory)

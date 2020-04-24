@@ -6,18 +6,12 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class RAM
+    class Games : Applications
     {
         //member variables
-        public double TotalGigabytes;
-        public string Brand;
+        public double RequiredEffectiveMemory;
 
         //constructor
-        public RAM(double totalGigabytes, string brand)
-        {
-            TotalGigabytes = totalGigabytes;
-            Brand = brand;
-        }
 
         //member methods
 

@@ -9,7 +9,7 @@ namespace CriticalThinking
     class FunWithForLoops
     {
         //member variables
-
+        string result;
         //constructor
         public FunWithForLoops()
         {
@@ -19,12 +19,16 @@ namespace CriticalThinking
         //member methods
         public void ForLoop()
         {
-            for (int i = 0; i < 5; i++)
+            
+            for (int i = 9; i >= 0; i--)
             {
-                Console.Write(i);
+                result += i.ToString() + ",";
                 
             }
+            string removecomma = result.Remove(result.Length - 1);
+            Console.WriteLine(removecomma);
             Console.ReadLine();
+            
 
             
             

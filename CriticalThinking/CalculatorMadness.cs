@@ -28,7 +28,9 @@ namespace CriticalThinking
 
         public void RunCalculations()
         {
-            AddTwoNumbers(5, 7);
+            int result = AddTwoNumbers(8, 40) + AddTwoNumbers(200, 50);
+            //int newResult = AddTwoNumbers(200, 50);
+            Console.WriteLine(result);
         }
             
     }

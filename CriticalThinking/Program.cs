@@ -22,7 +22,10 @@ namespace CriticalThinking
             //Console.WriteLine("Please enter the second number: ");
             //int numberTwo = int.Parse(Console.ReadLine());
             CalculatorMadness calculator = new CalculatorMadness();
-            calculator.RunCalculations();
+            int result = calculator.AddTwoNumbers(8, 40) + calculator.AddTwoNumbers(200, 50);
+            Console.WriteLine(result);
+            Console.ReadLine();
+            
 
         }
     }

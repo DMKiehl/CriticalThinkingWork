@@ -32,6 +32,24 @@ namespace CriticalThinking
             //int newResult = AddTwoNumbers(200, 50);
             Console.WriteLine(result);
         }
+
+        public int SubtractTwoNumbers(int numberOne, int numberTwo)
+        {
+            int result;
+            return result;
+        }
+
+        public int MultiplyTwoNumbers(int numberOne, int numberTwo)
+        {
+            int result;
+            return result;
+        }
+
+        public int DivideTwoNumbers(int numberOne, int numberTwo)
+        {
+            int result;
+            return result;
+        }
             
     }
 }

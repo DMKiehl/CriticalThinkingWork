@@ -16,6 +16,14 @@ namespace CriticalThinking
         GPU graphics;
 
         //constructor
+        public Motherboard(string manufacturer, RAM ram, CPU cpu, HardDrive hardDrive, GPU gpu)
+        {
+            Manufacturer = manufacturer;
+            processor = cpu;
+            temporaryMemory = ram;
+            storage = hardDrive;
+            graphics = gpu;
+        }
 
         //member methods
 

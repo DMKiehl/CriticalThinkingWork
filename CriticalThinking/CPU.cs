@@ -10,12 +10,13 @@ namespace CriticalThinking
     {
         //member variables
         string Manufacturer;
-        string name;
+        string Name;
 
         //constructor
-        public CPU()
+        public CPU(string manufacturer, string name)
         {
-
+            Manufacturer = manufacturer;
+            Name = name;
         }
 
         //member methods

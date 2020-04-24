@@ -13,9 +13,10 @@ namespace CriticalThinking
         string Brand;
 
         //constructor
-        public RAM()
+        public RAM(double totalGigabytes, string brand)
         {
-
+            TotalGigabytes = totalGigabytes;
+            Brand = brand;
         }
 
         //member methods

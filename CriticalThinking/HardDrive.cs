@@ -13,9 +13,10 @@ namespace CriticalThinking
         double AvailableStorage;
 
         //constructor
-        public HardDrive()
+        public HardDrive(double totalStorage, double availableStorage)
         {
-
+            TotalStorage = totalStorage;
+            AvailableStorage = availableStorage;
         }
 
         //member methods

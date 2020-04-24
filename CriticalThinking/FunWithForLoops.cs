@@ -38,7 +38,7 @@ namespace CriticalThinking
             //Console.WriteLine("How many times would you like the loop to run?");
             //int userInput = Convert.ToInt32(Console.ReadLine());
 
-            for(int i = 0; i < newString.Length; i++)
+            for(int i = 0; i < newString.Length; i+= 2)
             {
                 //userResult += i.ToString() + ",";
                 char letter = newString[i];

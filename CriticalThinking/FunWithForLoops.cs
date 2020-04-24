@@ -40,11 +40,15 @@ namespace CriticalThinking
 
             for(int i = 0; i < newString.Length; i++)
             {
-                userResult += i.ToString() + ",";
+                //userResult += i.ToString() + ",";
+                char letter = newString[i];
+                Console.Write(letter + ",");
+                //userResult += letter + ",";
+                
             }
-
-            string removecomma1 = userResult.Remove(userResult.Length - 1);
-            Console.WriteLine(removecomma1);
+            //Console.WriteLine(userResult);
+            //string removecomma1 = userResult.Remove(userResult.Length - 1);
+            //Console.WriteLine(removecomma1);
             Console.ReadLine();
         }
     }

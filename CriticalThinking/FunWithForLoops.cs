@@ -34,10 +34,11 @@ namespace CriticalThinking
 
         public void UserForLoop()
         {
-            Console.WriteLine("How many times would you like the loop to run?");
-            int userInput = Convert.ToInt32(Console.ReadLine());
+            string newString = "Hello World";
+            //Console.WriteLine("How many times would you like the loop to run?");
+            //int userInput = Convert.ToInt32(Console.ReadLine());
 
-            for(int i = 0; i < userInput; i++)
+            for(int i = 0; i < newString.Length; i++)
             {
                 userResult += i.ToString() + ",";
             }

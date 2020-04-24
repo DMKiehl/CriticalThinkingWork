@@ -24,7 +24,11 @@ namespace CriticalThinking
         {
             if (ram.TotalGigabytes > app.RequiredRAM && hardDrive.AvailableStorage > app.RequiredStorage)
             {
-                hardDrive.ProcessInstall(app, hardDrive, ram);
+                hardDrive.ProcessInstall(app, hardDrive, ram, gpu);
+            }
+            else
+            {
+                Console.WriteLine("Does not meet installation requirements");
             }
         }
 

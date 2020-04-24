@@ -11,6 +11,13 @@ namespace CriticalThinking
         //member variables
 
         //constructor
+        public TextEditor(string applicationName, string applicationType, double requiredRAM, double requiredStorage)
+        {
+            ApplicationName = applicationName;
+            ApplicationType = applicationType;
+            RequiredRAM = requiredRAM; //In Gigabytes
+            RequiredStorage = requiredStorage; //In Gigabytes
+        }
 
         //member methods
     }

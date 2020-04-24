@@ -22,7 +22,7 @@ namespace CriticalThinking
         }
 
         //member methods
-        public void ProcessInstall(Applications app, HardDrive hardDrive, RAM ram)
+        public void ProcessInstall(Applications app, HardDrive hardDrive, RAM ram, GPU gpu)
         {
             hardDrive.ApplicationsInHardDrive.Add(app);
         }

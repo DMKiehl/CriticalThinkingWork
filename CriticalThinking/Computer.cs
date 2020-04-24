@@ -16,6 +16,8 @@ namespace CriticalThinking
             HardDrive hardDrive = new HardDrive(1000.0, 950.0);
             RAM ram = new RAM(512, "Dell");
             Motherboard motherboard = new Motherboard("Dell", ram, cpu, hardDrive, gpu);
+            Games game = new Games("Solitaire", "Game", 20, 200, 6);
+            cpu.CheckRequirements(game, hardDrive, ram, gpu);
         }
 
 

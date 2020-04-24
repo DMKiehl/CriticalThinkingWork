@@ -17,19 +17,16 @@ namespace CriticalThinking
         public void WhileLoop()
         {
             //int counter = 5;
-            Console.WriteLine("Please enter a number.");
+            Console.WriteLine("Please the number 42.");
             int counter = Convert.ToInt32(Console.ReadLine());
-            if (counter < 0)
+
+            while (counter != 42)
             {
-                Console.WriteLine("Please enter a positive number.");
+                Console.WriteLine("Please try again. Please the number 42.");
+                counter = Convert.ToInt32(Console.ReadLine());
             }
-            else
-            {
-                while (counter < 25)
-                {
-                    counter++;
-                }
-            }            
+
+
 
         }
         

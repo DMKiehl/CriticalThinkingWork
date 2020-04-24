@@ -13,6 +13,9 @@ namespace CriticalThinking
             FunWithForLoops loops = new FunWithForLoops();
             loops.ForLoop();
             loops.UserForLoop();
+
+            FunWithWhileLoops whileloops = new FunWithWhileLoops();
+            whileloops.WhileLoop();
         }
     }
 }
